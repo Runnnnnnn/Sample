@@ -1,6 +1,6 @@
 # Sample
 
-Generate a sample of the standard normal distribution from M independent samples of the uniform distribution on [0, 1]
+Generate a sample of the standard normal distribution from 12 independent samples of the uniform distribution on [0, 1]
 
 
 
