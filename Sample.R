@@ -1,7 +1,12 @@
-
+# n represent the number of uniform distributed values in each row 
+# in order to have the best approximation of the final distribution, this number should be set as large as possible
 
 n = 100000
+
+# sample size is how many uniform distributed groups are in the dataset
 sample_size = 10000
+
+# for further calculation, interval is set to be 10 so the sum function will sum the average numbers with interval of 10
 interval = 10
 
 
@@ -18,7 +23,7 @@ for (i in seq(1,sample_size,interval)){
   
 }
 
-
+# draw the distribution of the sum of the average values, it can be observed that the sum values are normally distributed even though the orginal variables have uniform distribution
 hist(c, col="white", main = "Distribution of the Sum of the Avg. of Uniform Distributed Variable")
 
 
