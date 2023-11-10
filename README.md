@@ -9,7 +9,7 @@ Recall from the Central Limit Theorem that, if ![](https://latex.codecogs.com/sv
 
 ![](https://latex.codecogs.com/svg.image?\displaystyle\lim_{n\to\infty}\frac{\frac{1}{n}(\sum_{i=1}^{n}Xi)-E[X]}{\frac{\sigma(X)}{\sqrt%20n}}=Z)
 
-where Z is the standard normal distribution and the convergence in the eqution above is in distribution.
+where Z is the standard normal distribution and the convergence in the equation above is in distribution.
 
 
 Let ![](https://latex.codecogs.com/svg.image?U_1,U_2,...,U_1_2) be 12 independent uniform distributions on [0,1]. Based on the equation above, for n = 12 and ![]([https://latex.codecogs.com/svg.image?X_i=U_i](https://latex.codecogs.com/svg.image?X_i=U_i,i=1:12)https://latex.codecogs.com/svg.image?X_i=U_i,i=1:12),, we infer that 
