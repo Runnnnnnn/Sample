@@ -9,4 +9,4 @@ sds = apply(sample_store,2,sd)
 means = (means-1/2)/(sds/sqrt(sample_size))
 
 
-hist(means, col="white", main = "Distribution of the Sum of the Avg. of Uniform Distributed Variable")
+hist(means, col="white", main = "Distribution when N=100")
